@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Sono;
+    src: url('./fonts/Sono-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sono;
+  src: url('./fonts/Sono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Domine;
+  src: url('./fonts/Domine-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Domine;
+  src: url('./fonts/Domine-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Domine;
+  src: url('./fonts/Domine-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Domine;
+  src: url('./fonts/Domine-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}

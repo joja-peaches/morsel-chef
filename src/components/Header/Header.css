@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #e8e7de;
+    width: 100vw;
+    height: 54px;
+    margin: 0;
+    justify-content:  space-between;
+}
+
+.header__logo {
+    height: 44px;
+    padding-left: 6%;
+}
+
+.header__button {
+    /* font-family: "Sono", Arial, Helvetica, sans-serif; */
+    font-family: "Domine",'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+    padding-right: 6%;
+    background-color: transparent;
+    border: none;
+}

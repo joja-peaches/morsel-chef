@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import Header from '../Header/Header'
+
 import './App.css'
 
 function App() {
@@ -7,11 +9,9 @@ function App() {
 
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
     </>
   )
 }
 
-export default App
+export default App;
