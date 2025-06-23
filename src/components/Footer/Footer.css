@@ -21,7 +21,7 @@
     font-weight: 400;
     margin: 0;
     position: absolute;
-    right: 4%;
+    right: 5%;
 }
 
 .footer__icons {
@@ -56,6 +56,24 @@
 }
 
 @media screen and (max-width: 525px) {
+    .footer {
+        height: 40px;
+    }
+
+    .footer__text {
+        right: 6%;
+    }
+
+    .footer__social-icon {
+        height: 16px;
+    }
+
+    .footer__email-icon {
+        height: 14px;
+    }
+}
+
+@media screen and (max-width: 460px) {
     .footer {
         height: 40px;
     }
