@@ -1,15 +1,17 @@
 import "./Header.css";
-import logo from "../../assets/branding/morsel-fork-logo-large.svg";
+import logo from "../../assets/branding/morsel-large-logo-dark.svg";
+// import logo from "../../assets/branding/morsel-large-logo-light.png";
+// import logo from "../../assets/branding/morsel-fork-logo-snipped.svg";
 
 function Header() {
   return (
     <header className="header">
       <img src={logo} alt="Morsel Logo" className="header__logo" />
-      <div className="header__navigation-container">
-        <button className="header__button">About</button>
-        <button className="header__button">Services</button>
-        <button className="header__button">Contact</button>
-      </div>
+      <nav className="header__navigation">
+        <button className="header__navigation-button">ABOUT</button>
+        <button className="header__navigation-button">SERVICES</button>
+        <button className="header__navigation-button">CONTACT</button>
+      </nav>
     </header>
   );
 }

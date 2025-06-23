@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1e4bb;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__text {
+    font-family: "SimplyMono", Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, .82);
+    font-size: 10px;
+    font-style: oblique;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 14px 0 0;
+    align-self:last baseline
+}
+
+.footer__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+    padding: 1px 0 0 4px;
+    position: absolute;
+}
+
+.footer__social-icon {
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer__email-icon {
+    height: 17px;
+    cursor: pointer;
+}
