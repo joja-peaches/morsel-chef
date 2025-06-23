@@ -1,0 +1,8 @@
+.main {
+    background-image: url("../../assets/images/rice-pilaf-morsel-chef-milwaukee.jpg");
+    background-size: cover;
+    height: 100vh;
+    max-width: 1400px;
+    /* width: 100%;
+    width: 100vw; */
+}

@@ -1,13 +1,15 @@
 .footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #f1e4bb;
     width: 100vw;
+    max-width: 1400px;
     height: 40px;
     position: fixed;
     bottom: 0;
+    box-sizing: border-box;
 }
 
 .footer__text {
@@ -18,25 +20,51 @@
     line-height: 16px;
     font-weight: 400;
     margin: 0;
-    padding: 0 14px 0 0;
-    align-self:last baseline
+    position: absolute;
+    right: 4%;
 }
 
 .footer__icons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 8px;
-    padding: 1px 0 0 4px;
+    column-gap: 10px;
+    padding: 5px 0 0 4px;
     position: absolute;
 }
 
 .footer__social-icon {
     height: 20px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer__social-icon:hover {
+    opacity: .5;
+    transition: opacity .3s ease-in;
 }
 
 .footer__email-icon {
     height: 17px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer__email-icon:hover {
+    opacity: .5;
+    transition: opacity .3s ease-in;
+}
+
+@media screen and (max-width: 525px) {
+    .footer {
+        height: 40px;
+    }
+
+    .footer__social-icon {
+        height: 16px;
+    }
+
+    .footer__email-icon {
+        height: 14px;
+    }
 }
