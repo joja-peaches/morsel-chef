@@ -55,21 +55,22 @@
 .landing__fork {
     box-sizing: border-box;
     position: absolute;
-    top: -23vh;
-    max-height: 60vh;
+    top: 0;
+    max-height:48vh;
+    max-width: 56vw;
     padding-left: 28px;
     z-index: 4;
 }
 
 .landing__enter-button {
     position: absolute;
-    bottom: 22%;
+    bottom: 6%;
     background-color: rgb(255, 255, 255, .7);
     font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
-    padding: 12px 14px 10px;
+    padding: 10px 12px 8px;
     border-radius: 2px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     z-index: 5;
@@ -90,44 +91,35 @@
 }
 
 @media screen and (max-width: 800px) {
-    .landing__enter-container {
-        height: 60vh;
-    }
-
     .landing__fork {
-        max-height: 55vh;
-        top: -20vh;
+        max-height: 46vh;
     }
 
     .landing__enter-button {
-        bottom: 30%;
+        bottom: 10%;
     }
 }
 
 @media screen and (max-width: 750px) {
-    .landing__enter-container {
-        height: 70vh;
-        width: 70vw;
+    .landing__fork {
+        max-height: 42vh;
     }
 
-    .landing__fork {
-        max-height: 53vh;
+    .landing__enter-button {
+        bottom: 14%;
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 670px) {
-    .landing__enter-container {
-        height: 70vh;
-    }
-
     .landing__fork {
-        position: absolute;
-        top: 0;
-        max-height: 40vh;
+        max-height: 38vh;
     }
 
     .landing__enter-button {
-        bottom: 20%;
+        bottom: 18%;
+        font-size: 18px;
+        padding: 10px 12px 8px;
     }
 }
 
@@ -142,20 +134,7 @@
         max-width: 50vw;
     }
 
-    .landing__enter-container {
-        width: 80vw;
+    .landing__enter-button {
+        font-size: 16px;
     }
-}
-
-@media screen and (max-width: 400px) {
-    .landing__fork {
-        max-width: 65vw;
-    }
-
-    .landing__enter-container {
-        width: 90vw;
-        height: 50vh;
-    }
-
-
 }

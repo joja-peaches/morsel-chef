@@ -9,7 +9,7 @@
     background: rgba(0,0,0,0.2);
 }
 
-.modal_open {
+.modal__open {
     visibility: visible;
     position: fixed;
     z-index: 3;
@@ -36,7 +36,8 @@
     font-weight: 700;
     font-size: 24px;
     font-style: normal;
-    margin: 0;
+    margin: 0 15px;
+    text-align: center;
 }
 
 .modal__text {
@@ -45,7 +46,7 @@
     font-size: 18px;
     text-align: center;
     font-style: italic;
-    margin: 2px 0 14px;
+    margin: 2px 20px 14px;
     width: 280px;
 }
 
@@ -57,32 +58,66 @@
     line-height: 22px;
     box-sizing: border-box;
     width: 250px;
-    padding: 5px 0 7px;
+    padding: 6px 0 7px;
     border: solid;
     border-width: 1px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .modal__button_type_yes {
     color: rgb(9, 109, 7);
     border-color: rgb(9, 109, 7);
+    background-color: rgb(241, 249, 241);
 }
 
 .modal__button_type_no {
     color: rgb(187, 58, 58);
     border-color: rgb(187, 58, 58);
+    background-color: rgb(252, 243, 243);
 }
 
-.modal__button-type-yes:hover {
-
+.modal__button:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .3s ease-in-out;
 }
 
-.modal__buton-type-no:hover {
-    
+@media screen and (max-width: 570px) {
+    .modal__title {
+        font-size: 22px;
+    }
+
+    .modal__text {
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+
+    .modal__button {
+        font-size: 16px;
+        width: 230px;
+    }
+
+    .modal__open {
+        height: 60vh;
+        width: 64vw;
+    }
 }
 
-@media screen and (max-width: 400px) {
-    .modal_open {
-        width: 80vw;
+@media screen and (max-width: 480px) {
+    .modal__title {
+        font-size: 20px;
+    }
+
+    .modal__button {
+        font-size: 16px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .modal__open {
+        height: 64vh;
+        width: 68vw;
     }
 }

@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import "./ForkLanding.css";
 import fork from "../../assets/branding/fork-morsel.png";
 
-function ForkLanding({ hasEntered, handleEnterClick }) {
+function ForkLanding({ hasEntered, handleEnterClick, isOpen }) {
   const landingContainer = useRef(null);
   const currentIndex = useRef(0);
   const frontLayer = useRef(null);

@@ -10,7 +10,7 @@ function HungryModal({ enterSite, isOpen, onClose }) {
 
   if (!isOpen) return null;
   return ReactDOM.createPortal(
-    <div ref={modalRef} className={`modal ${isOpen ? "modal_open" : ""}`}>
+    <div ref={modalRef} className={`modal ${isOpen ? "modal__open" : ""}`}>
       <h2 className="modal__title">Are you feeling hungry?</h2>
       <p className="modal__text">
         You must have an appetite to view the contents on this page.
