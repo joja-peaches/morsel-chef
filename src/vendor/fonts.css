@@ -1,56 +1,83 @@
-
 @font-face {
   font-family: SimplyMono;
-  src: url('./fonts/SimplyMono-Book.ttf') format('ttf');
+  src: url('./fonts/SimplyMono-Book.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: SimplyMono;
-  src: url('./fonts/SimplyMono-Bold.ttf') format('ttf');
+  src: url('./fonts/SimplyMono-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: SimplyMono;
-  src: url('./fonts/SimplyMono-BookOblique.ttf') format('ttf');
+  src: url('./fonts/SimplyMono-BookOblique.ttf') format('truetype');
   font-weight: 400;
   font-style: oblique;
 }
 
 @font-face {
   font-family: SimplyMono;
-  src: url('./fonts/SimplyMono-BoldOblique.ttf') format('ttf');
+  src: url('./fonts/SimplyMono-BoldOblique.ttf') format('truetype');
   font-weight: 700;
   font-style: oblique;
 }
 
 @font-face {
-  font-family: Domine;
-  src: url('./fonts/Domine-Regular.ttf') format('ttf');
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Domine;
-  src: url('./fonts/Domine-Medium.ttf') format('ttf');
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Domine;
-  src: url('./fonts/Domine-SemiBold.ttf') format('ttf');
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Domine;
-  src: url('./fonts/Domine-Bold.ttf') format('ttf');
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+}
+
+@font-face {
+  font-family: STIXTwoText;
+  src: url('./fonts/STIXTwoText-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
 }

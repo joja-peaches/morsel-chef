@@ -1,30 +1,47 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import "./App.css";
 
 import ForkLanding from "../ForkLanding/ForkLanding";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
-
-import "./App.css";
+import HungryModal from "../HungryModal/HungryModal";
 
 function App() {
-  const [isEntered, setIsEntered] = useState(false);
+  const [hasEntered, setHasEntered] = useState(false);
+  const [activeModal, setActiveModal] = useState("");
+
+  const handleEnterClick = () => {
+    setActiveModal("hungry");
+  };
+
+  const closeActiveModal = () => {
+    setActiveModal("");
+  };
 
   const enterSite = () => {
-    setIsEntered(true);
-  }
+    setHasEntered(true);
+    closeActiveModal();
+  };
 
   return (
     // <BrowserRouter>
-      <div className="app">
-        <ForkLanding 
-          setIsEntered={setIsEntered}
-        />
-        <Header />
-        {/* <Main /> */}
-        <Footer />
-      </div>
+    <div className="app">
+      <ForkLanding
+        hasEntered={hasEntered}
+        handleEnterClick={handleEnterClick}
+      />
+      <Header />
+      {/* <Main /> */}
+      <Footer />
+      <HungryModal
+        enterSite={enterSite}
+        isOpen={activeModal === "hungry"}
+        onClose={closeActiveModal}
+      />
+    </div>
     // </BrowserRouter>
   );
 }

@@ -15,7 +15,7 @@
 }
 
 .header__logo {
-    height: 54px;
+    height: 52px;
     padding-left: 6%;
     position: absolute;
     top: 0;
@@ -39,11 +39,12 @@
 }
 
 .header__navigation-button {
-    font-family: "SimplyMono", Arial, Helvetica, sans-serif;
+    font-family: SimplyMono, Arial, Helvetica, sans-serif;    
     color: rgb(0, 0, 0, .82);
     font-size: 16px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 1px;
     padding: 0;
     background-color: transparent;
     border: none;

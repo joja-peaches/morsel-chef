@@ -1,8 +1,8 @@
 import { useRef, useEffect } from "react";
 import "./ForkLanding.css";
-import fork from "../../assets/branding/morsel-fork-logo-large.svg";
+import fork from "../../assets/branding/fork-morsel.png";
 
-function ForkLanding({ setIsEntered }) {
+function ForkLanding({ hasEntered, handleEnterClick }) {
   const landingContainer = useRef(null);
   const currentIndex = useRef(0);
   const frontLayer = useRef(null);
@@ -47,12 +47,17 @@ function ForkLanding({ setIsEntered }) {
   }, []);
 
   return (
-    <div className="landing" ref={landingContainer}>
-      <img src={fork} alt="Morsel Chef Fork Logo" className="landing__fork" />
+    <div
+      className={`landing ${hasEntered ? "landing-closed" : ""}`}
+      ref={landingContainer}
+    >
       <div ref={frontLayer} className="landing__background-layer-front"></div>
       <div ref={backLayer} className="landing__background-layer-back"></div>
       <div className="landing__enter-container">
-        <button className="landing__enter-button">Enter</button>
+        <img src={fork} alt="Morsel Chef Fork Logo" className="landing__fork" />
+        <button className="landing__enter-button" onClick={handleEnterClick}>
+          Enter
+        </button>
       </div>
     </div>
   );
