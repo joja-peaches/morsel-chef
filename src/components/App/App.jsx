@@ -34,7 +34,7 @@ function App() {
         handleEnterClick={handleEnterClick}
       />
       <Header />
-      {/* <Main /> */}
+      <Main />
       <Footer />
       <HungryModal
         enterSite={enterSite}

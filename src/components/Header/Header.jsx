@@ -1,7 +1,6 @@
 import "./Header.css";
 import logo from "../../assets/branding/morsel-large-logo-dark.svg";
-// import logo from "../../assets/branding/morsel-large-logo-light.png";
-// import logo from "../../assets/branding/morsel-fork-logo-snipped.svg";
+import hamburger from "../../assets/branding/hamburger.svg";
 
 function Header() {
   return (
@@ -14,6 +13,7 @@ function Header() {
         <button className="header__navigation-button">FAQ</button>
         <button className="header__navigation-button">CONTACT</button>
       </nav>
+      <img src={hamburger} className="header__hamburger" />
     </header>
   );
 }
