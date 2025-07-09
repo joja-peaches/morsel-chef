@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://joja-peaches.github.io/morsel-chef",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
