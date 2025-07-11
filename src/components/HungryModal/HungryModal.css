@@ -78,8 +78,8 @@
 }
 
 .modal__button:hover {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
-    transition: box-shadow .3s ease-in-out;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    transition: box-shadow .4s ease-in-out;
 }
 
 @media screen and (max-width: 570px) {

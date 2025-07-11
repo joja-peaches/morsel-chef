@@ -6,8 +6,8 @@
     background-color: #f1e4bb;
     width: 100vw;
     max-width: 1400px;
-    height: 40px;
-    position: fixed;
+    height: 6vh;
+    position: relative;
     bottom: 0;
     box-sizing: border-box;
 }

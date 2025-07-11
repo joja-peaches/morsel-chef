@@ -4,14 +4,14 @@
     background-color: #f1e4bb;
     width: 100vw;
     max-width: 1400px;
-    height: 70px;
+    height: 65px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     justify-content: flex-end;
     align-items: center;
     overflow-x: hidden;
-    position: relative;
+    position: fixed;
 }
 
 .header__logo {
