@@ -15,18 +15,22 @@
 }
 
 .header__logo {
-    height: 52px;
+    height: 56px;
+    width: 110px;
     padding-left: 6%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 4%;
     opacity: 0.85;
+    cursor: pointer;
+    background-image: url("../../assets/branding/morsel-large-logo-dark.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .header__logo:hover {
-    opacity: 1;
-    transition: opacity .4s ease-out;
-    cursor: pointer;
+    background-image: url("../../assets/branding/morsel-large-logo-red.svg");
+    transition: background-image .4s ease-in;
 }
 
 .header__navigation {

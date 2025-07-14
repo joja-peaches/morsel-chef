@@ -1,14 +1,13 @@
 import "./about.css";
-// import banner from "../../assets/images/chef-megan-gajewski-kitchen.jpg";
 import portrait from "../../assets/images/chef-megan-gajewski-wisconsin.jpg";
 import yogurt from "../../assets/images/strawberry-yogurt-milwaukee.jpg";
 
 function About() {
   return (
-    <section className="about">
+    <article className="about">
       <div className="about__banner" />
       <h1 className="about__title">About Morsel</h1>
-      <article className="about__text">
+      <section className="about__text">
         As a little girl, I always admired those around me and their ability to
         cook incredible meals - from my mom and dad creating their ultimate
         comfort food for me as a child, to my grandpa and his world-famous bigos
@@ -22,7 +21,7 @@ function About() {
         <br />
         My journey began 19 years ago and led me here to Morsel. I am so glad
         I’m here. And I’m glad you are too.
-      </article>
+      </section>
       <div className="about__photo-pair">
         <img
           src={yogurt}
@@ -36,42 +35,64 @@ function About() {
         />
       </div>
       <h2 className="about__subtitle">Background</h2>
-      <p className="about__text">
-        ServSafe Certified | Certified Food Manager | Bartender's License |
-        AllerTrain Training | Stone Creek Coffee Barista Training | HeartSaver
-        CPR & AED Training
-      </p>
-      <p className="about__text">
-        ​B.A. Business Administration emp. Hospitality Management | A.A.
-        Culinary Arts | Attended Apicius Intl. School of Hospitality in
-        Florence, Italy | 18+ years Foodservice Experience | Staged for Charlie
-        Trotter, Justin Carlisle, Karen Bell, and more | Volunteered at PBS
-        events with Lidia Bastianich and Rick Bayless
-      </p>
+      <section className="about__text about__text-centered">
+        ServSafe Certified | Certified Food Manager | Bartender's License
+        <br />
+        AllerTrain Training | Stone Creek Coffee Barista Training
+        <br />
+        HeartSaver CPR & AED Training
+      </section>
+      <section className="about__text about__text-centered">
+        ​B.A. Business Administration emp. Hospitality Management
+        <br />
+        Attended Apicius Intl. School of Hospitality in Florence, Italy
+        <br />
+        A.A. Culinary Arts | 18+ years Foodservice Experience
+        <br />
+        Staged for Charlie Trotter, Justin Carlisle, Karen Bell, and more
+        <br />
+        Volunteered at PBS events with Lidia Bastianich and Rick Bayless
+      </section>
       <h2 className="about__subtitle">Cuisines & Specialties</h2>
-      <p className="about__text">
-        American, French, Italian, Polish, German, Mexican, Indian, Asian
-        Allergy-friendly, Dairy-free, Gluten-free, Ketogenic, Paleo, Vegan,
-        Vegetarian, Raw
-      </p>
+      <section className="about__text about__text-centered">
+        American, French, Italian, Polish, German, Mexican,
+        <br />
+        Indian, Asian Allergy-friendly, Dairy-free, Gluten-free,
+        <br />
+        Ketogenic,Paleo, Vegan, Vegetarian, Raw
+      </section>
       <h2 className="about__subtitle">Experience</h2>
-      <p className="about__text">
+      <section className="about__text about__text-centered">
         Executive chef, sous chef, catering chef, pastry chef at university,
         stadium, restaurant, museum, cafe, family functions, private events.
         Personal chef for families, couples, individuals, professionals,
-        athletes, celebrities.{" "}
-      </p>
-      <p className="about__text">
-        MILWAUKEE PUBLIC MARKET 2019 - 2021 marquette university 2012 – 2020 THE
-        PASTA TREE 2009 – 2011 milWAUKEE ART MUSEUM 2007 – 2009 miller park 2004
-        – 2010
-      </p>
-      <blockquote>
-        "Megan has discerning taste, a sharp eye for presentation, and a deep
-        passion for cooking that is unparalleled!"
-      </blockquote>
-      <p>Satisfied Client</p>
-    </section>
+        <br />
+        athletes, celebrities.
+      </section>
+      <section className="about__text about__text-resume">
+        Milwaukee Public Market{" "}
+        <span className="about__text-oblique">2019 - 2021</span>
+        <br />
+        Marquette University{" "}
+        <span className="about__text-oblique">2012 – 2020</span>
+        <br />
+        The Pasta Tree <span className="about__text-oblique">2009 – 2011</span>
+        <br />
+        Milwaukee Art Museum{" "}
+        <span className="about__text-oblique">2007 – 2009</span>
+        <br />
+        Miller Park <span className="about__text-oblique">2004 – 2010</span>
+      </section>
+      <div className="about__quote-container">
+        <div className="about__quote-block">
+          <blockquote className="about__quote">
+            "Megan has discerning taste, a sharp eye for presentation, and a
+            deep passion for cooking that is unparalleled!"
+          </blockquote>
+          <p className="about__quote-text">- Satisfied Client</p>
+        </div>
+      </div>
+    </article>
   );
 }
 

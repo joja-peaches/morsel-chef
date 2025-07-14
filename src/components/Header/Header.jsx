@@ -8,10 +8,8 @@ function Header() {
 
   return (
     <header className="header">
-      <img
+      <div
         onClick={() => navigate("/")}
-        src={logo}
-        alt="Morsel Logo"
         className="header__logo"
       />
       <nav className="header__navigation">

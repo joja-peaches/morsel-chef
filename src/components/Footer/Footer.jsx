@@ -1,35 +1,22 @@
 import "./Footer.css";
-import instagramLogo from "../../assets/branding/instagram-logo.svg";
-import tiktokLogo from "../../assets/branding/tiktok-logo.svg";
-import facebookLogo from "../../assets/branding/facebook-logo.svg";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__icons">
         <a href="https://www.facebook.com/morselchef/">
-          <img
-            src={facebookLogo}
-            alt="Facebook Logo"
-            className="footer__social-icon"
-          />
+          <div className="footer__social-icon-facebook" />
         </a>
         <a href="https://www.instagram.com/morsel_chef/" target="_blank">
-          <img
-            src={instagramLogo}
-            alt="Instagram Logo"
-            className="footer__social-icon"
-          />
+          <div className="footer__social-icon-instagram" />
         </a>
         <a href="https://www.tiktok.com/@missmegs00" target="_blank">
-          <img
-            src={tiktokLogo}
-            alt="TikTok Logo"
-            className="footer__social-icon"
-          />
+          <div className="footer__social-icon-tiktok" />
         </a>
       </div>
-      <p className="footer__text">&copy; Morsel Chef 2025</p>
+      <p className="footer__text">
+        <span className="footer__text-copyright">&copy;</span> Morsel Chef 2025
+      </p>
     </footer>
   );
 }

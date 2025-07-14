@@ -1,0 +1,147 @@
+.contact {
+    padding: 65px 0 0;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__title {
+    font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
+    color: rgb(0, 0, 0, .82);
+    font-size: 36px;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    max-width: 50vw;
+    margin: 38px 0 26px;
+}
+
+.contact__text {
+    font-family: SimplyMono, Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 700px;
+    margin: 0 0 24px;
+    text-align: center;
+    font-style: oblique;
+}
+
+.contact__form-container {
+    display: flex;
+    width: 800px;
+    padding: 0 0 40px 0;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.contact__form__input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form-label {
+    font-family: SimplyMono, Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0 2px;
+}
+.contact__form-input {
+    font-family: SimplyMono, Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: oblique;
+    padding: 1px 4px;
+}
+
+.contact__form-input__message {
+    height: 160px;
+}
+
+.contact__form-submit-button {
+    font-family: SimplyMono, Arial, Helvetica, sans-serif;    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 100px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 3px 0;
+    margin: 20px 0 0;
+    align-self: end;
+    background-color: #f1e4bb;;
+}
+
+.contact__form-submit-button:hover {
+    box-sizing: border-box;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: #bb3a3a;
+    border-color: rgb(187, 58, 58);
+    transition: border-color .3s ease-in-out, color .2s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.contact__image {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+    padding: 0 20px 0 0;
+}
+
+.contact__quote-container {
+    background-image: url("../../assets/images/megan-chopping-citrus-fruit.jpg");
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: stretch;
+    background-position: top -20% left 0;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.contact__quote-block {
+    background-color: rgb(0, 0, 0, .5);
+    width: 820px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__quote {
+    font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    width: 550px;
+    letter-spacing: 1px;
+    margin: 30px 0 0;
+    padding: 50px 0 0;
+}
+
+.contact__quote-text {
+    font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
+    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    width: 600px;
+    color: white;
+    text-align: end;
+}

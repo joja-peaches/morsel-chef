@@ -2,11 +2,11 @@ import "./Menu.css";
 
 function Menu() {
   return (
-    <section className="menu">
+    <article className="menu">
       <h1>Menu</h1>
       <blockquote>Good food is the foundation of genuine happiness.</blockquote>
       <p>Auguste Escoffier</p>
-      <article>
+      <section>
         <h2>Apple Rumaki</h2>
         <p>Serves 6-8</p>
         <p>
@@ -18,8 +18,8 @@ function Menu() {
           <li>1 lb bacon, applewood</li>
           <li>Pure maple syrup</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Classic Bruschetta</h2>
         <p>Serves 6-8</p>
         <p>
@@ -34,8 +34,8 @@ function Menu() {
           <li>Extra virgin olive oil</li>
           <li>Salt and pepper to taste</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Grilled Herbed Chicken</h2>
         <p>Serves up to 4</p>
         <p>
@@ -47,8 +47,8 @@ function Menu() {
           <li>1/2 lb pure Irish butter</li>
           <li>Salt and pepper to taste</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Artichoke Parmesan Dip</h2>
         <p>Serves 6-8</p>
         <p>
@@ -64,8 +64,8 @@ function Menu() {
           <li>1/4 C grated Romano</li>
           <li>Herbs, spices, salt & pepper to taste</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Stuffed Squash with Quinoa</h2>
         <p>Serves 2-4</p>
         <p>
@@ -82,8 +82,8 @@ function Menu() {
           <li>1/2 C shredded Parmesan, optional</li>
           <li>Olive oil, salt & pepper to taste</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Summer Cucumber Salad</h2>
         <p>Serves 4-6</p>
         <p>
@@ -98,8 +98,8 @@ function Menu() {
           <li>Dill</li>
           <li>Salt & pepper to taste</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Cool Berry Sorbet</h2>
         <p>Serves 4-6</p>
         <p>
@@ -111,8 +111,8 @@ function Menu() {
           <li>1 1/2 C simple syrup</li>
           <li>Mint & berries for garnish</li>
         </ul>
-      </article>
-      <article>
+      </section>
+      <section>
         <h2>Vegan Brownies</h2>
         <p>Serves 4-6</p>
         <p>
@@ -131,8 +131,8 @@ function Menu() {
           <li>3/4 C non-dairy chocolate chips</li>
           <li>Spices & sea salt</li>
         </ul>
-      </article>
-    </section>
+      </section>
+    </article>
   );
 }
 

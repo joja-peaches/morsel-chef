@@ -21,38 +21,66 @@
     font-weight: 500;
     margin: 0;
     position: absolute;
+    top: 0;
     right: 5%;
+}
+
+.footer__text-copyright {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: sub;
+    margin: 14px 2px;
 }
 
 .footer__icons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 14px;
     padding: 5px 0 0 4px;
     position: absolute;
 }
 
-.footer__social-icon {
-    height: 20px;
+.footer__social-icon-facebook {
+    height: 22px;
+    width: 23px;
     cursor: pointer;
-    opacity: 0.8;
+    background-image: url("../../assets/branding/facebook-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.footer__social-icon:hover {
-    opacity: .5;
-    transition: opacity .3s ease-in;
+.footer__social-icon-facebook:hover {
+    background-image: url("../../assets/branding/facebook-logo-red.png");
+    transition: background-image .4s ease-in;
 }
 
-.footer__email-icon {
-    height: 17px;
+.footer__social-icon-instagram {
+    height: 23px;
+    width: 23px;
     cursor: pointer;
-    opacity: 0.8;
+    background-image: url("../../assets/branding/instagram-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.footer__email-icon:hover {
-    opacity: .5;
-    transition: opacity .3s ease-in;
+.footer__social-icon-instagram:hover {
+    background-image: url("../../assets/branding/instagram-logo-red.svg");
+    transition: background-image .4s ease-in;
+}
+
+.footer__social-icon-tiktok {
+    height: 21px;
+    width: 20px;
+    cursor: pointer;
+    background-image: url("../../assets/branding/tiktok-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer__social-icon-tiktok:hover {
+    background-image: url("../../assets/branding/tiktok-logo-red.svg");
+    transition: background-image .4s ease-in;
 }
 
 @media screen and (max-width: 525px) {

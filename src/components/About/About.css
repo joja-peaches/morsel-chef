@@ -25,35 +25,93 @@
     font-weight: 600;
     font-style: oblique;
     max-width: 50vw;
-    margin: 28px 0 20px;
+    margin: 38px 0 26px;
 }
 
 .about__subtitle {
-    /* font-family: SimplyMono, Arial, Helvetica, sans-serif; */
     font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
     color: rgb(0, 0, 0, .82);
     font-size: 24px;
     line-height: 16px;
-    font-weight: 400;
+    font-weight: 600;
+    margin: 26px 0 30px;
 }
 
 .about__text {
     font-family: SimplyMono, Arial, Helvetica, sans-serif;
-    /* font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;   */
     color: rgb(0, 0, 0, .82);
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     width: 700px;
+    margin: 0 0 24px;
+}
+
+.about__text-centered {
+    text-align: center;
+}
+
+.about__text-resume {
+    width: 350px;
+    padding: 20px 0 20px 30px;
+}
+
+.about__text-oblique {
+    font-style: oblique;
 }
 
 .about__photo-pair {
     display: flex;
-    margin: 30px 0;
+    margin: 20px 0 20px;
     box-sizing: border-box;
     column-gap: 10px;
 }
 
 .about__photos {
     width: 400px;
+}
+
+.about__quote-container {
+    background-image: url("../../assets/images/megan-chopping-citrus-fruit.jpg");
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: stretch;
+    background-position: top -20% left 0;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.about__quote-block {
+    background-color: rgb(0, 0, 0, .5);
+    width: 820px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__quote {
+    font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    width: 550px;
+    letter-spacing: 1px;
+    margin: 30px 0 0;
+    padding: 50px 0 0;
+}
+
+.about__quote-text {
+    font-family: STIXTwoText, Georgia, 'Times New Roman', Times, serif;  
+    color: rgb(0, 0, 0, .82);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    width: 600px;
+    color: white;
+    text-align: end;
 }
